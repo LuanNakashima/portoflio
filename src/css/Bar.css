@@ -1,0 +1,89 @@
+.listaFixa a {
+  color: black;
+  text-decoration: none;
+}
+
+.listaFixa {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.liFixa:hover {
+  transform: translateX(80px);
+  cursor: pointer;
+}
+
+#linkedinFixa {
+  background-color: white;
+  border-style: solid;
+  left: -90px;
+  width: 160px;
+  height: 70px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: transform 250ms;
+  overflow: hidden;
+}
+
+.linkedinImgFixa {
+  width: 50px;
+}
+
+#gitHubFixa {
+  background-color: white;
+  border-style: solid;
+  left: -90px;
+  width: 160px;
+  height: 70px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: transform 250ms;
+  overflow: hidden;
+}
+
+.gitHubImgFixa {
+  width: 50px;
+}
+
+#gmailFixa {
+  background-color: white;
+  border-style: solid;
+  left: -90px;
+  width: 160px;
+  height: 70px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: transform 250ms;
+  overflow: hidden;
+}
+
+.gmailImgFixa {
+  width: 50px;
+  height: 40px;
+  padding-left: 9%;
+}
+
+#phoneFixa {
+  background-color: white;
+  border-style: solid;
+  left: -90px;
+  width: 160px;
+  height: 70px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: transform 250ms;
+  overflow: hidden;
+}
+
+.phoneImgFixa {
+  height: 60px;
+  width: 50px;
+}

@@ -1,0 +1,51 @@
+.sobrePage {
+  display: flex;
+  position:absolute;
+  justify-content: space-between;
+  align-items: center;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+.projetosMain {
+  position: absolute;
+  left: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projetoDiv {
+  display: flex;
+}
+
+.card {
+  border: 3px solid #7f5af0;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: center;
+  height: 250px;
+  width: 300px;
+  margin: 10px;
+}
+
+.card img {
+  width: 300px;
+}
+
+.divBtnSite {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.divBtnSite a {
+  all: unset;
+  margin: 10px;
+  cursor: pointer;
+}
